@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+libdir=${exec_prefix}/lib
+xcbincludedir=/home/steward/Github/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot${datadir}/xcb
+pythondir=/home/steward/Github/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot${prefix}/lib/python2.7/site-packages
+
+Name: XCB Proto
+Description: X protocol descriptions for XCB
+Version: 1.12

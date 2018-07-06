@@ -1,0 +1,11 @@
+prefix=/home/steward/Github/buildroot/output/host/usr
+exec_prefix=/home/steward/Github/buildroot/output/host/usr
+libdir=/home/steward/Github/buildroot/output/host/usr/lib
+includedir=/home/steward/Github/buildroot/output/host/usr/include
+
+Name: blkid
+Description: Block device id library
+Version: 2.29.2
+Requires.private: uuid
+Cflags: -I${includedir}/blkid
+Libs: -L${libdir} -lblkid

@@ -1,0 +1,11 @@
+prefix=/home/steward/Github/buildroot/output/host/usr
+exec_prefix=/home/steward/Github/buildroot/output/host/usr
+libdir=/home/steward/Github/buildroot/output/host/usr/lib
+includedir=/home/steward/Github/buildroot/output/host/usr/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.29.2
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

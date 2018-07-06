@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/home/steward/Github/buildroot/output/host/usr/bin/bison' -y "$@"

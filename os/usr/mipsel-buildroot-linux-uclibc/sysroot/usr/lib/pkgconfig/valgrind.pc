@@ -1,0 +1,16 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/valgrind
+arch=mips32
+os=linux
+platform=mips32-linux
+valt_load_address=0x38000000
+
+Name: Valgrind
+Description: A dynamic binary instrumentation framework
+Version: 3.12.0
+Requires:
+Libs: -L${libdir}/valgrind -lcoregrind-mips32-linux -lvex-mips32-linux -lgcc
+Cflags: -I${includedir}
+

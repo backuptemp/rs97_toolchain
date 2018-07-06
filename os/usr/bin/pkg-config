@@ -1,0 +1,2 @@
+#!/bin/sh
+PKG_CONFIG_LIBDIR=${PKG_CONFIG_LIBDIR:-/home/steward/Github/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/pkgconfig:/home/steward/Github/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/share/pkgconfig} PKG_CONFIG_SYSROOT_DIR=${PKG_CONFIG_SYSROOT_DIR:-/home/steward/Github/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot} $(dirname $0)/pkgconf  $@

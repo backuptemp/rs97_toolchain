@@ -1,0 +1,14 @@
+prefix=/home/steward/Github/buildroot/output/host/usr
+exec_prefix=/home/steward/Github/buildroot/output/host/usr
+libdir=/home/steward/Github/buildroot/output/host/usr/lib
+includedir=/home/steward/Github/buildroot/output/host/usr/include
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 19.0.13
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

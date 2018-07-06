@@ -1,0 +1,22 @@
+=head2 Sat Apr 14 10:02:48 2018: C<Module> L<XML::Parser|XML::Parser>
+
+=over 4
+
+=item *
+
+C<installed into: /home/steward/Github/buildroot/output/host/usr/lib/perl>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.44>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
